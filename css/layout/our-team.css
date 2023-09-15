@@ -1,0 +1,90 @@
+.our-team {
+  background-color: #f4f4fd;
+  padding: 96px 0;
+}
+.two-level {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.three-level {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+}
+.list-setka-second {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.list-team {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 32px;
+}
+.dad-icon-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.list-class {
+  width: 40px;
+  height: 40px;
+}
+.list-icon {
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  width: 100%;
+  fill: #f4f4fd;
+}
+@media screen and (min-width: 768px) {
+  .list-setka-second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: center;
+  }
+  .list-team {
+    width: 264px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .our-team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+  }
+  .list-setka-second {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 72px;
+  }
+  .list-team {
+    text-align: center;
+  }
+  .list-icon:hover,
+  .list-icon:focus {
+    background-color: #404bbf;
+  }
+}
