@@ -11,6 +11,9 @@
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(100%);
 }
+.is-open {
+  transform: translateX(0%);
+}
 .form {
   min-width: 288px;
   height: 100%;
