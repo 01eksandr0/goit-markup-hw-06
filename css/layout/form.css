@@ -143,6 +143,9 @@
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .form-link {
   color: #4d5ae5;
