@@ -13,14 +13,14 @@
   text-align: center;
   margin-bottom: 72px;
 }
-.three-level {
+.three-level-team {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .list-setka-second {
   display: flex;
@@ -34,7 +34,6 @@
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   text-align: center;
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
 }
 .dad-icon-list {
   display: flex;
@@ -56,6 +55,9 @@
   height: 100%;
   width: 100%;
   fill: #f4f4fd;
+}
+.team-head-p {
+  padding: 32px 0;
 }
 @media screen and (min-width: 768px) {
   .list-setka-second {
