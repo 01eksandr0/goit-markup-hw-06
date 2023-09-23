@@ -1,3 +1,6 @@
+.is-hidden {
+  transform: translateX(0%);
+}
 .heder-style {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
